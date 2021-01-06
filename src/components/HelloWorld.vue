@@ -30,10 +30,8 @@
 
       <!-- button area -->
       <div class="btn-area">
-        <button class="el-button"
-                @click="handleSubmit">submit</button>
-        <button class="el-button"
-                @click="handleClear">clear</button>
+        <button @click="handleSubmit">submit</button>
+        <button @click="handleClear">clear</button>
       </div>
     </div>
   </div>

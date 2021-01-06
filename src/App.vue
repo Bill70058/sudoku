@@ -1,12 +1,13 @@
 <template>
-  <div id="app" @click="clearBg">
+  <div id="app"
+       @click="clearBg">
     <HelloWorld ref="sudoku" />
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-
+import "@/assets/buttonStyle.scss"
 export default {
   name: "App",
   components: {
